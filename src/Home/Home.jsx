@@ -1,5 +1,6 @@
 import React from 'react'
 import './Styles.css'
+import {Link} from 'react-router-dom'
 
 
 const Home = () => {
@@ -29,19 +30,19 @@ const Home = () => {
               </button>
             </div>
             <div className='col'>
-              <a href='pageb'>
+              <Link  to='pageb'>
                 <button type='button' className='btn boutton'>
                   Page B!
                 </button>
-              </a>
+              </Link  >
             </div>
             <div className='col'>
-              <a href='pageb'>
+              <Link  to='pageb'>
                 {' '}
                 <button type='button' className='btn boutton'>
                   Page C!
                 </button>
-              </a>
+              </Link  >
             </div>
           </div>
           <div className='row'>

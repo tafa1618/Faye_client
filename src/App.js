@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import Home from './Home/Home';
-import PageB from './PageB';
+import PageB from './PageB/PageB';
 
 const App = () => {
   return (
