@@ -1,6 +1,6 @@
 import React from 'react'
 import './Styles.css'
-import PageB from '../PageB'
+
 
 const Home = () => {
   return (
