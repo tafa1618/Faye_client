@@ -69,9 +69,9 @@ const Form = ({ currentId, setCurrentId }) => {
           }
         />
         <TextField
-          name='Prenom'
+          name='Title'
           variant='outlined'
-          label='Title'
+          label='Prénom'
           fullWidth
           value={postData.title}
           onChange={(e) => setPostData({ ...postData, title: e.target.value })}
