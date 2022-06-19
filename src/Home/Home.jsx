@@ -29,14 +29,14 @@ const Home = () => {
               </button>
             </div>
             <div className='col'>
-              <a href='/pageb'>
+              <a href='pageb'>
                 <button type='button' className='btn boutton'>
                   Page B!
                 </button>
               </a>
             </div>
             <div className='col'>
-              <a href='./pageB.html'>
+              <a href='pageb'>
                 {' '}
                 <button type='button' className='btn boutton'>
                   Page C!
